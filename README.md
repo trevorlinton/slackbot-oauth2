@@ -1,4 +1,4 @@
-# Linking OAuth2 and Slack Bot Template
+# OAuth2 and Slack App Template 
 
 A template for a slack app that links slack users to an oauth2 system for fun integrations and profit!
 
