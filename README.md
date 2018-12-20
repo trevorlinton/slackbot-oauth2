@@ -38,7 +38,7 @@ sessions from the oauth2 flow.
 
 ### OAuth2 System Settings
 
-You should obtain these from your oauth2 provider
+You should obtain these from your oauth2 provider.  When you create an oauth2 system it will ask you for a `redirect_uri`, use the value `https://yourapp.com/auth/callback`, remember to replace yourapp.com with the host name of your app. You'll also want to store this value as the enviornment variable `OAUTH2_REDIRECT_URI`.
 
 * `OAUTH2_AUTHORIZE_URL` - The full URL where to begin an authorize/authorization process. 
 * `OAUTH2_TOKEN_URL` - The full URL where tokens for `refresh_token` and `authorization_code exchanges` can be done.
