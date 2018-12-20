@@ -46,3 +46,6 @@ You should obtain these from your oauth2 provider.  When you create an oauth2 sy
 * `OAUTH2_CLIENT_SECRET` - The oauth2 client secret received
 * `OAUTH2_REDIRECT_URI` - This should be `$VANITY_URL/auth/callback` its a seperate value (rather than derived from vanity url) to help ease testing, as sometimes the redirect uri is not the same as the vanity url when working locally.
 
+## Modifying the Login Screen
+
+See https://github.com/trevorlinton/slackbot-oauth2/blob/master/auth.js#L115 for modifying the login message.
